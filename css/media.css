@@ -1,0 +1,238 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*	header start*/
+	header{
+		padding: 5px 0px;
+	}
+	.menu ul li a {
+		font-size: 20px;
+    	padding: 5px 0px 0px !important;
+    	text-align: right;
+	}
+/*	header end */
+/*slider start*/
+    .slider {
+        padding-bottom: 60px;
+    }
+    .c_slider {
+        margin-bottom: -35px;
+    }
+    .c_slider [data-bs-target] {
+        width: 15px;
+        height: 15px;
+    }
+    .s_text {
+        margin-top: 0px;
+    }
+    .s_text h1 {
+        font-size: 25px;
+    }
+    .s_text h2 {
+        margin: 10px 0px;
+    }
+    .s_icon ul li {
+        margin: 20px 20px 0 0 !important;
+    }
+    .s_icon ul li i {
+        font-size: 35px;
+    }
+/*    features*/
+    .features{
+        padding: 40px 0px 60px 0px;
+    }
+    .f_h1{
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+     .f_p{
+        font-size: 17px;
+    }
+    .f_item {
+        margin-top: 40px
+    }
+    .f_icon i {
+        font-size: 35px;
+    }
+    .f_text{
+        text-align: center;
+    }
+    .f_text h2 {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .f_text p{
+        letter-spacing: 0px;
+    }
+    /*    contact start*/
+    .c_form{
+        margin: 35px 0 40px 0;
+    }
+    .c_input{
+        height: 40px;
+        padding: 10px 15px;
+    }
+    .c_button{
+        height: 40px;
+    }
+     .c_icon li {
+        margin-right: 20px !important;
+    }
+    .c_icon li i{
+        font-size: 35px;
+    }
+/*    footer start*/
+    .footer {
+        padding-bottom: 60px;
+    }
+    .f_1 {
+        text-align: center;
+    }
+    .f_2 {
+        margin-top: 40px;
+        text-align: center;
+    }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*	header start*/
+	.menu ul li a {
+		font-size: 20px;
+    	padding: 5px 0px 0px !important;
+    	text-align: right;
+	}
+/*header end*/
+/*slider start*/
+ 	.slider {
+    	padding-bottom: 60px;
+	}
+    .c_slider {
+        margin-bottom: -35px;
+    }
+    .c_slider [data-bs-target] {
+        width: 15px;
+        height: 15px;
+    }
+    .s_text {
+        margin-top: 0px;
+    }
+    .s_text h1 {
+        font-size: 25px;
+    }
+    .s_text h2 {
+        margin: 10px 0px;
+    }
+    .s_icon ul li {
+        margin: 20px 20px 0 0 !important;
+    }
+    .s_icon ul li i {
+        font-size: 35px;
+    }
+/*    features*/
+    .features{
+            padding: 40px 0px 60px 0px;
+        }
+    .f_h1{
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .f_p{
+        font-size: 17px;
+    }
+    .f_item {
+        margin-top: 40px
+    }
+    .f_icon i {
+        font-size: 35px;
+    }
+    .f_text{
+        text-align: center;
+    }
+    .f_text h2 {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .f_text p{
+        letter-spacing: 0px;
+    }
+/*    contact start*/
+    .c_form{
+        margin: 35px 0 40px 0;
+    }
+    .c_input{
+        height: 45px;
+        padding: 10px 15px;
+    }
+    .c_button{
+        height: 45px;
+    }
+    .c_icon li {
+        margin-right: 25px !important;
+    }
+    .c_icon li i{
+        font-size: 40px;
+    }
+/*    footer start*/
+    .footer {
+        padding-bottom: 60px;
+    }
+    .f_1 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .f_2 {
+        text-align: center;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*	header start*/
+	.menu ul li a {
+    padding: 10px 0px 0px !important;
+    text-align: right;
+}
+/*header end*/
+/*slider start*/
+    .s_text h1 {
+        font-size: 30px;
+    }
+    .s_text h2 {
+        margin: 15px 0px;
+        font-size: 18px;
+    }
+    .s_icon ul li {
+        margin: 30px 35px 0 0 !important;
+    }
+    .s_icon ul li i {
+        font-size: 40px;
+    }
+/*features*/
+    .features{
+        padding: 80px 0px 100px 0px;
+    }
+    .f_item {
+        margin-top: 50px;
+    }
+    .c_form{
+        margin: 65px 0 70px 0;
+    }
+
+/*footer start*/
+    .footer{
+        padding-bottom: 80px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and and (max-width: 1399.98px){
+	
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
